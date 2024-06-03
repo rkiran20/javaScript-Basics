@@ -43,3 +43,7 @@ Now once we capture the reference to a DOM node, we can do bunch of stuff with i
         const body = document.querySelector("body")
         body.appendChild(child);
         // this creates the <div> in the body
+
+4) Destroying Nodes
+    - const ele = document.querySelector("#someId");
+    ele.remove();
